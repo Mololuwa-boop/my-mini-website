@@ -6,11 +6,25 @@
   </head>
   <body>
     <h1>Hi</h1>
+    <img src="profile.jpg" alt="My Profile Picture" width="200">
 <h2>My Webpage is alive!</h2>
 <h3>HTML is simple once you try!</h3>
 
     <p>This is my first webpage.</p>
 <p>I am learning web development step by step!</p>
+<p id="welcomeText">Click the button to see a surprise!</p>
+
+
+<button id="greetBtn">Click me!</button>
+<script>
+  const button = document.getElementById('greetBtn');
+  const welcomeText = document.getElementById('welcomeText');
+
+  button.addEventListener('click', function() {
+    welcomeText.textContent = "🎉 Hi Molly! You just made your website interactive!";
+  });
+</script>
+
 
 <a href="about.html">Go to About Page</a>
   </body>

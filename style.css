@@ -28,3 +28,16 @@ p {
 h1:hover {
     color: #e74c3c; /* changes color when you hover the mouse */
 }
+img {
+    border-radius: 10px; /* rounded corners */
+    margin: 20px 0;      /* space above/below */
+}
+a {
+    color: #3498db;        /* links blue */
+    text-decoration: none;  /* remove underline */
+    font-weight: bold;
+}
+
+a:hover {
+    color: #e74c3c;        /* red on hover */
+}
